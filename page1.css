@@ -1,25 +1,25 @@
 .carousel{
     overflow: hidden;
-    max-width: 1800px;
+    max-width: 100%;
     position: relative;
     max-height: 500px;
 }
-.carousel .carousel_item,
-.carousel .carousel_item--hiddden{
+.carousel .carousel__item,
+.carousel .carousel__item--hiddden{
     display: none;
 }
 
-.carousel .carousel_item img {
+.carousel .carousel__item img {
     width: 100%;
     max-width: 100%;
     height: auto;
 }
 
-.carousel .carousel_item--visible {
+.carousel .carousel__item--visible {
     display: block;
     animation:  fadevisibility 0.5s;
 }
-.carousel .carousel_actions{
+.carousel .carousel__actions{
     display: flex;
     width: 100%;
     justify-content: space-between;
@@ -28,7 +28,7 @@
     transform: translateY(-50%);
 }
 
-.carousel .carousel_actions button{
+.carousel .carousel__actions button{
     border-radius: 50px;
     border: 0px;
     font-weight: bold;
@@ -37,10 +37,10 @@
     height: 40px;
 }
 
-.carousel .carousel_actions button#carousel_button--prev{
+.carousel .carousel__actions button#carousel__button--prev{
     margin-left: 20px;
 }
-.carousel .carousel_actions button#carousel_button--next{
+.carousel .carousel__actions button#carousel__button--next{
     margin-left: 20px;
 }
 

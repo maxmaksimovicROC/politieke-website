@@ -2,7 +2,7 @@
     overflow: hidden;
     max-width: 100%;
     position: relative;
-    max-height: 500px;
+    
 }
 .carousel .carousel__item,
 .carousel .carousel__item--hiddden{

@@ -1,10 +1,36 @@
+
+  
+
+
+
+
+
+
+
+<!doctype html>
 <html>
   <head>
-    <link rel="stylesheet" href="page1.css" />
+    <link rel="stylesheet" href="styles1.css">
+    <link rel="stylesheet" href="carousel.css" />
   </head>
 
   <body>
-    <div class="carousel">
+  <ul>
+    <li><a href="index.php"></a>Home</li>
+    <li><a href="standpunt.php">Standpunten</a></li>
+    <li><a href="politici.php">Politici</a></li>
+    <li><a class="login" href="login.php">Login</a></li>
+  </ul>
+
+
+
+
+
+
+
+
+  <div class="carousel">
+
       <div class="carousel__item carousel__item--visible">
         <img src="images/1.jpg" />
       </div>
@@ -20,7 +46,14 @@
         <button id="carousel__button--next" aria-label="Next slide">></button>
       </div>
     </div>
-
+    
     <script src="pagina1.js"></script>
+ 
+  
+  
+  
+
+ 
+ 
   </body>
 </html>

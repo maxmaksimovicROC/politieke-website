@@ -1,0 +1,41 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 20px;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: inline;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .login {
+    background-color: #b3b3b3;
+  }
+
+  var {
+    float: right;
+    font-size: 20px;
+    display: inline;
+    color: white;
+    text-align: center;
+    
+  }
+  var a:hover:not(.active){
+    background-color: #111;
+  }
+  

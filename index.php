@@ -10,8 +10,8 @@
 <!doctype html>
 <html>
   <head>
-    <link rel="css/stylesheet" href="styles1.css">
-    <link rel="css/stylesheet" href="carousel.css" />
+    <link rel="stylesheet" href="css/styles1.css">
+    <link rel="stylesheet" href="css/carousel.css" />
   </head>
 
   <body>

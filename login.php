@@ -8,6 +8,13 @@
             href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"></link>
     </head>
     <body>
+        <ul>
+            <li><a href="index.php">Home</a></li>
+            <li><a href="standpunt.php">Standpunten</a></li>
+            <li><a href="politici.php">Politici</a></li>
+            
+        </ul>
+    
         <div class="container">
             <div class="Login-Box">
             <div class="row">

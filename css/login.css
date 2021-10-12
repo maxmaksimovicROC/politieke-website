@@ -23,19 +23,16 @@ ul {
     background-color: #111;
   }
   
-  .login {
-    background-color: #b3b3b3;
-  }
-
-  var {
-    float: right;
-    font-size: 20px;
-    display: inline;
-    color: white;
-    text-align: center;
-    
-  }
-  var a:hover:not(.active){
-    background-color: #111;
+  
+  .row{
+    align-items: center;
   }
   
+  
+  
+  .body{
+     
+      background-color: tomato;
+      
+  }
+ 

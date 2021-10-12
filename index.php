@@ -10,6 +10,7 @@
 <!doctype html>
 <html>
   <head>
+    <title>PVABS</title>
     <link rel="stylesheet" href="css/styles1.css">
     <link rel="stylesheet" href="css/carousel.css" />
   </head>
@@ -33,13 +34,16 @@
   <div class="carousel">
 
       <div class="carousel__item carousel__item--visible">
-        <img src="images/1.jpg" />
+        <img src="images/1.jpg" ></img>
       </div>
       <div class="carousel__item">
-        <img src="images/2.jpg" />
+        <img src="images/2.jpg" ></img>
       </div>
       <div class="carousel__item">
-        <img src="images/3.jpg" />
+        <img src="images/3.jpg" ></img>
+      </div>
+      <div class="carousel_item">
+        <img src="images/4.jpg"></img>
       </div>
 
       <div class="carousel__actions">

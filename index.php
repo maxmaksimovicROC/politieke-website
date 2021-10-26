@@ -34,17 +34,15 @@
   <div class="carousel">
 
       <div class="carousel__item carousel__item--visible">
-        <img src="images/1.jpg" ></img>
+        <img src="images/5.jpg" ></img>
       </div>
       <div class="carousel__item">
-        <img src="images/2.jpg" ></img>
+        <img src="images/6.jpg" ></img>
       </div>
       <div class="carousel__item">
-        <img src="images/3.jpg" ></img>
+        <img src="images/7.jpg" ></img>
       </div>
-      <div class="carousel_item">
-        <img src="images/4.jpg"></img>
-      </div>
+      
 
       <div class="carousel__actions">
         <button id="carousel__button--prev" aria-label="Previous slide"><</button>

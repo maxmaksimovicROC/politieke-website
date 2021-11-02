@@ -16,10 +16,10 @@ try{
   // set the PDO error mode to exception
   $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
   $sql = "INSERT INTO  usertable (name, password)
-  VALUES ('John', 'Doe')";
+  VALUES ('','')";
   // use exec() because no results are returned
   $conn->exec($sql);
-  echo "New record created successfully";
+  echo "New account created successfully";
 } catch(PDOException $e) {
   echo $sql . "<br>" . $e->getMessage();
 }

@@ -1,28 +1,51 @@
-<?php
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Registration from</title>
+  <link rel="stylesheet" href="boot/css/bootstrap.min.css">
+</head>
+<body>
+  <div>
+    <?php
+    if(isset($_POST['create'])){
+      echo 'account gemaakt.';
+    }
+    ?>
+
+  </div>
+  <div>
+    <form action="registration.php" method="post">
+        <div class="container">
 
 
+          <div class="row">
+              <div class="col-sm-3">
+              <h1>Registration</h1>
+              <p>Vul uw informatie in</p>
+              <hr class="mb-3">
+              <label for="fisrtname"><b>Voornaam</b></label>
+              <input class="form-control" type="text" name="firstname" required>
 
+              <label for="lastname"><b>Achternaam</b></label>
+              <input class="form-control" input type="text" name="lastname" required>
 
+              <label for="Email"><b>Email</b></label>
+              <input class="form-control" input type="email" name="Email" required>
 
+              <label for="telnum"><b>Telefoon Nummer</b></label>
+              <input class="form-control" input type="text" name="telnum" required>
 
-$database_lokatie     = 'localhost';
-$database_naam        = 'politiekewebsite';
-$database_gebruiker   = 'root';
-$database_wachtwoord  = '';
+              <label for="password"><b>Wachtwoord</b></label>
+              <input class="form-control" input type="password" name="password" required>
 
+              <hr class="mb-3">
+              <input class="form-control" input type="submit" name="create" value="Sign Up">
+              </div>
 
-try{
-    $database_connectie = new PDO("mysql:host=$database_lokatie;dbname=$database_naam", $database_gebruiker);
-  // set the PDO error mode to exception
-  $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-  $sql = "INSERT INTO  usertable (name, password)
-  VALUES ('','')";
-  // use exec() because no results are returned
-  $conn->exec($sql);
-  echo "New account created successfully";
-} catch(PDOException $e) {
-  echo $sql . "<br>" . $e->getMessage();
-}
+          </div>    
+        </div>
+    </form>
+</div>
 
-$conn = null;
-?>
+</body>
+</html>

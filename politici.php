@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link rel="stylesheet" href="boot/css/bootstrap.min.css">
         <link rel="stylesheet" href="css/politici.css">
         <title>politici</title>
     </head>
@@ -12,8 +13,10 @@
             <li style="float:right"><a class="active" href="login.php">Login</a></li>
         </ul>
         
-        <div class="text">
+        <div>
+            
             <h1>politiek juridisch</h1>
+            <hr class="mb-3">
             <p>De Partij voor gelijke rechten focust op Slachtoffers van criminele instanties,
             de partij was een gratis juridisch kliniek maar om verandering te brengen 
             voor kinderen en tieners die in gevaarlijke situaties zijn getrokken door hun 
@@ -42,6 +45,7 @@
                 zo zorg je ervoor dat iedereen kan stemmen als ze het serieus nemen als je stemmen niet serieus neemt mag je niet stemmen en de vragen op de toets zijn alleen feiten die in de motie stonden en geen dingen waar je een mening op kan hebben zo is het eerlijk voor iedereen want iedereen heeft een verschillende mening op verschillende dingen.
                 dit is de beste oplossing om een eerlijke directe democratie te hebben waar iedereen kan stemmen op wat hij wilt te stemmen want veel mensen in nederland vinden bijvoorbeeld wilders goed maar ze vinden zijn racistische kant niet goed daarom wordt het er minder op hem gekozen en dat is het probleem het indirecte democratie je kan het eens zijn over heel veel maar dan is er een ding waar je zo oneens met iemand over bent dat je diegene geen eens eens een kans geeft om op te stemmen.
             </p>
+            <hr class="mb-3">
         </div>
 
 

@@ -38,11 +38,14 @@ ul {
   var a:hover:not(.active){
     background-color: #111;
   }
-.text{
-  background-color: rgb(240, 239, 219);
-  width: 400px;
-  border: 15px solid rgb(88, 88, 88);
-  padding: 50px;
-  margin: 20px;
+div{
+    background-color: rgb(240, 239, 219);
+    width: 400px;
+    border: 15px solid rgb(88, 88, 88);
+    padding: 50px;
+    margin: 20px;
+}
+body{
+  background-color: black;
 }
   

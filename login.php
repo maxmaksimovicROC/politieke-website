@@ -11,7 +11,7 @@
         <ul>
             <li><a href="index.php">Home</a></li>
             <li><a href="standpunt.php">Standpunten</a></li>
-            <li><a href="politici.php">Politici</a></li>
+            <li><a href="politici.php">Politiek Juridisch</a></li>
             
         </ul>
         <p>als u geen account heeft klik dan hier <a href="registration.php">*</a></p>

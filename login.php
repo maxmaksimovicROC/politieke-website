@@ -24,11 +24,11 @@
                     <form action="registration.php" method="post">
                         <div class="form-group">
                             <Label>username</Label>
-                            <input type="text" name="user" class="form-control" required>
+                            <input type="text" name="nm" class="form-control" required>
                             </div>
                         <div class="form-group">
                                 <Label>password</Label>
-                                <input type="password" name="password" class="form-control" required>
+                                <input type="password" name="psswrd" class="form-control" required>
                             </div>
                         <button type="submit" class="btn btn-primary">Login</button>
                     </form>

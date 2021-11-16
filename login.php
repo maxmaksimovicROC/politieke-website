@@ -11,7 +11,7 @@
         <ul>
             <li><a href="index.php">Home</a></li>
             <li><a href="standpunt.php">Standpunten</a></li>
-            <li><a href="politici.php">Politici</a></li>
+            <li><a href="politici.php">Politiek Juridisch</a></li>
             
         </ul>
     
@@ -34,34 +34,8 @@
                     </form>
         </div>
         </div> 
+        <p>als u geen account heeft klik dan hier <a href="registration.php">*</a></p>
         
-            <div class="row">
-            <div class="col-md-6">
-            
-            <div class="Register-Box">
-                    <H2> Registeer Hier </H2>
-                        <form action="registration.php" method="post">
-                            <div class="form-group">
-                                <Label>username</Label>
-                                <input type="text" name="user" class="form-control" required>
-                            </div>
-                            <div class="form-group">
-                                    <Label>password</Label>
-                                    <input type="password" name="password" class="form-control" required>
-                                </div>
-                            <button type="submit" class="btn btn-primary">Registeer</button>
-                        </form>
-            
-            
-            </div>  
-            </div>
-            </div>    
-        </div>  
-   
-   
-   
-
-   
-   
-            </body>
+        
+    </body>
 </html>

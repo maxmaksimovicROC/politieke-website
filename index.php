@@ -10,7 +10,7 @@
 <!doctype html>
 <html>
   <head>
-    <title>PVABS</title>
+    <title>Partij van Gelijke Rechten voor Iedereen</title>
     <link rel="stylesheet" href="css/styles1.css">
     <link rel="stylesheet" href="css/carousel.css" />
   </head>
@@ -19,7 +19,7 @@
   <ul>
     <li><a href="index.php">Home</a></li>
     <li><a href="standpunt.php">Standpunten</a></li>
-    <li><a href="politici.php">Politici</a></li>
+    <li><a href="politici.php">Politiek Juridisch</a></li>
     <li style="float:right"><a class="active" href="login.php">Login</a></li>
   </ul>
  

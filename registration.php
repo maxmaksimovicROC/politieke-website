@@ -19,7 +19,7 @@ require_once('config.php');
       $phonenumber  = $_POST['phonenumber'];
       $password     = $_POST['password'];
 
-
+-
       $sql = "INSERT INTO users (firstname, lastname, Email, phonenumber, password) VALUES(?,?,?,?,?)";
        $stminsert = $db->prepare($sql);
        $result = $stminsert->execute([$firstname, $lastname, $Email, $phonenumber, $password]);    
@@ -50,7 +50,7 @@ require_once('config.php');
               <p>Vul uw informatie in</p>
               <hr class="mb-3">
               <label for="fisrtname"><b>Voornaam</b></label>
-              <input class="form-control" type="text" name="firstname" required>
+              <input class="form-control" type="text" placeholder=""required>
 
               <label for="lastname"><b>Achternaam</b></label>
               <input class="form-control" type="text" name="lastname" required>
@@ -59,19 +59,45 @@ require_once('config.php');
               <input class="form-control" type="email" name="Email" required>
 
               <label for="phonenumber"><b>Telefoon Nummer</b></label>
-              <input class="form-control" type="text" name="phonenumber" required>
+              <input class="form-control" type="text" name="phonenumber" placeholder="+31612345678" required>
 
               <label for="password"><b>Wachtwoord</b></label>
-              <input class="form-control" type="password" name="password" required>
+              <input class="form-control" type="password" name="password"  required>
 
               <hr class="mb-3">
-              <input class="btn btn-primary" type="submit" name="create" value="Sign Up">
+              <input class="btn btn-primary" type="submit" name="create"  value="Sign Up">
               </div>
 
           </div>    
         </div>
     </form>
 </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 </body>
 </html>
